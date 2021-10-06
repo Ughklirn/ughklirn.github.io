@@ -6,6 +6,6 @@
   "dependencies": {
   },
   "scripts": {
-    "start": "npm js/main.js"
+    "build": "node js/main.js"
   }
 }
