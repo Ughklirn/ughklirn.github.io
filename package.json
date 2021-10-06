@@ -1,6 +1,8 @@
 {
   "name": "ughklirn.github.io",
+  "description": "a delightfully fruity coffee varietal",
   "version": "1.0.0",
+  "main": "js/main.js",
   "dependencies": {
   }
 }
