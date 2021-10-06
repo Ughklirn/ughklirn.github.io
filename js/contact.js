@@ -938,4 +938,4 @@ $.jqBootstrapValidation = function (options) {
 };
 
     }) (jQuery);
-* /
+    */
