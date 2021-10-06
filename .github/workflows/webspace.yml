@@ -21,6 +21,7 @@ jobs:
 
       - name: 🔨 Build Project
         run: |
+          pwd
           npm install
           npm run build
       - name: 📂 Sync files
