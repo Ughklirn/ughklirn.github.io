@@ -164,12 +164,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .divcenter {
-    float: left;
-    width: 32%;
-    margin-right: 2%;
-    padding: 20px;
-    background: #eee;
-    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 /* Add a black background color to the top navigation 
