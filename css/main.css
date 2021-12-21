@@ -10,14 +10,14 @@ p {
     margin: 30px 0;
 }
 
-    p a {
-        text-decoration: underline;
-    }
+p a {
+    text-decoration: underline;
+}
 
 .header {
     padding: 60px;
     text-align: center;
-    background: #1abc9c;
+    /* background: #1abc9c; */
     color: white;
     background-color: #777777;
     background: no-repeat center center;
@@ -29,22 +29,23 @@ p {
     margin-bottom: 50px;
 }
 
-    .header h1 {
-        font-size: 60px;
-        font-weight: 500;
-        color: white;
-    }
+.header h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 800;
 }
+
 .inhalt {
     margin-top: 2px;
     margin-bottom: 2px;
     margin-left: 2px;
     margin-right: 2px;
-    margin: 2px;
+    /* margin: 2px; */
     background: #ccc;
 }
 
@@ -52,52 +53,53 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: black;
 }
-/* flex für besseren button */
+
+/* flex fï¿½r besseren button */
 .flex {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
 
-    .flex > DIV {
-        margin: 2px;
-        background: #ccc;
-        border: 1px solid #bbb;
-        font-size: 24pt;
-        color: #666;
-    }
+.flex > DIV {
+    margin: 2px;
+    background: #ccc;
+    border: 1px solid #bbb;
+    font-size: 24pt;
+    color: #666;
+}
 
-        .flex > DIV > A {
-            display: block;
-            padding: 25px;
-            text-decoration: none;
-            color: black;
-        }
+.flex > DIV > A {
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
 
-        .flex > DIV:hover {
-            animation: scaling 0.2s;
-        }
+.flex > DIV:hover {
+    animation: scaling 0.2s;
+}
 
 /* animation keyframes */
 @keyframes scaling {
     0% {
-        transform: scale3d( 1, 1, 1 );
+        transform: scale3d(1, 1, 1);
     }
 
     25% {
-        transform: scale3d( 0.98, 0.98, 0.98 ) rotate(5deg);
+        transform: scale3d(0.98, 0.98, 0.98) rotate(5deg);
     }
 
     50% {
-        transform: scale3d( 0.95, 0.95, 0.95 ) rotate(10deg);
+        transform: scale3d(0.95, 0.95, 0.95) rotate(10deg);
     }
 
     75% {
-        transform: scale3d( 0.98, 0.98, 0.98 ) rotate(5deg);
+        transform: scale3d(0.98, 0.98, 0.98) rotate(5deg);
     }
 
     100% {
-        transform: scale3d( 1, 1, 1 );
+        transform: scale3d(1, 1, 1);
     }
 }
 
@@ -106,59 +108,65 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #333;
 }
 
-    .navbar a {
-        float: left;
-        font-size: 16px;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
 .dropdown {
     float: left;
     overflow: hidden;
 }
 
-    .dropdown .dropbtn {
-        font-size: 16px;
-        border: none;
-        outline: none;
-        color: white;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
-    }
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
 
-    .navbar a:hover, .dropdown:hover .dropbtn {
-        background-color: red;
-    }
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
-    .dropdown-content a {
-        float: none;
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-    }
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
 
-        .dropdown-content a:hover {
-            background-color: #ddd;
-        }
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.divcenter div {
+    width: 300px;
+    margin: auto;
+    /* border: 3px solid #4287f5; */
 }
 
 /* Add a black background color to the top navigation 
@@ -273,5 +281,15 @@ h1, h2, h3, h4, h5, h6 {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }*/
-.boxcentral { float: left; width: 32%; margin-right: 2%; padding: 20px; background: #eee; box-sizing: border-box; }
-.boxboxcentral:last-child { margin-right: 0; }
+.boxcentral {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    padding: 20px;
+    background: #eee;
+    box-sizing: border-box;
+}
+
+.boxboxcentral:last-child {
+    margin-right: 0;
+}
